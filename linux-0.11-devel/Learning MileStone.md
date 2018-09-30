@@ -1,5 +1,12 @@
 **学习记录**
-
+- **资料**
+  - http://oldlinux.org/Linux.old/bochs/linux-0.11-devel-040329.zip
+    linux-0.11的开发环境, bootimage, rootimage和bochs. 其中rootimage中的文件系统中有linux-0.11源码.
+  - http://oldlinux.org/Linux.old/Linux-0.11/
+    linux-0.11的相关文档、二进制和源码
+  - http://oldlinux.org/Linux.old/Linux-0.11/sources/
+    linux-0.11的源码和其它工具命令源码.
+    
 - **搭建环境**
   文件说明
     ```
