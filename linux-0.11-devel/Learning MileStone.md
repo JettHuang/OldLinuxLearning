@@ -33,6 +33,14 @@
   - 使用bochs运行bochsrc-hd.bxrc
 
 - **Build Kernel**
+   进入linux-0.11内核源码目录/usr/src/linux.
+   执行如下命令
+   - [/usr/src/linux]# make clean
+   - [/usr/src/linux]# make         构建kernel image
+   - [/usr/src/linux]# dd bs=8192 if=Image of=/dev/fd0  写入引导软盘中
+   重启虚拟机.
+   
 
+   
 
 
